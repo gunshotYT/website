@@ -1,0 +1,42 @@
+#loader {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 4px solid #ff8000;
+  top: 50%;
+  left: 50%;
+   margin-top: -50px;
+    margin-left: -50px;
+  animation: loadAnim 3s infinite ease;
+}
+
+@keyframes loadAnim {
+    0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+}
+
+
+
+#content {
+  display: none;
+  text-align: center;
+}
