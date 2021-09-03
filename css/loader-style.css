@@ -14,22 +14,27 @@
 @keyframes loadAnim {
     0% {
     transform: rotate(0deg);
+    opacity: 1;
   }
   
   25% {
     transform: rotate(180deg);
+    opacity: 0.75;
   }
   
   50% {
     transform: rotate(180deg);
+    opacity: 0.5;
   }
   
   75% {
     transform: rotate(360deg);
+    opacity: 0.25;
   }
   
   100% {
     transform: rotate(360deg);
+    opactity: 0;
   }
 }
 }
@@ -38,5 +43,4 @@
 
 #content {
   display: none;
-  text-align: center;
 }
